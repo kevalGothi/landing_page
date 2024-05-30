@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tania Webfix</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </a>
+            </li>
+            <li><a href="#">HOME</a></li>
+            <li><div class="dropdown">
+                <a href="#" class="dropbtn">Services</a> 
+                
+                
+                <div class="dropdown-content">
+                  
+                  <div class="row">
+                    <div class="column">
+                      <h3>SEO</h3>
+                      <a href="#">Local SEO</a>
+                      <a href="#">NATIONAL SEO</a>
+                      <a href="#">INTERNATIONAL SEO</a>
+                    </div>
+                    <div class="column">
+                      <h3>Category 2</h3>
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                    <div class="column">
+                      <h3>Category 3</h3>
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </div>
+              </div></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Dewani</a></li>
+        </ul>
+        <ul>
+            <li><img src="./logo.jpg" class="logo" alt="logo"></li>
+            <li class="hideOnMobile"><a href="#">HOME</a></li>
+            <li class="hideOnMobile drop-down">
+                
+                <div class="dropdown">
+                    <a href="#" class="dropbtn">Services</a> 
+                    
+                    
+                    <div class="dropdown-content">
+                      
+                      <div class="row">
+                        <div class="column">
+                          <h3>SEO</h3>
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                        <div class="column">
+                          <h3>Category 2</h3>
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                        <div class="column">
+                          <h3>Category 3</h3>
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+            </li>
+            <li class="hideOnMobile"><a href="#">Products</a></li>
+            <li class="hideOnMobile"><a href="#">Blog</a></li>
+            <li class="hideOnMobile"><a href="#">Dewani</a></li>
+            <li class="menu-btn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class="slider-container" style="margin: 20px;">
+        <div class="slider">
+            <div class="slide" style="background: url('./4380747.jpg') no-repeat center center/cover;">
+                <div class="content">
+                    <p>Grow your website with us</p>
+                    <h1>Website Development</h1>
+                    <h4>Share process and data securely with the best in business</h4>
+                    <!-- <img src="./graphic-design.avif" alt="Graphic Design"> -->
+                </div>
+            </div>
+            <div class="slide" style="background: url('./marketing.gif') no-repeat center center/cover;">
+                <div class="content">
+                    <p>Digital Marketing</p>
+                    <h1>Google Ads</h1>
+                    <h4>Make your business go Online with Ads</h4>
+                    <!-- <img src="./graphic-design.avif" alt="Graphic Design"> -->
+                </div>
+            </div>
+            <div class="slide" style="background: url('./graphic-design.avif') no-repeat center center/cover;">
+                <div class="content">
+                    <p>Grow your business with us</p>
+                    <h1>Graphic & logo Design</h1>
+                    <h4>Best Graphic-desiner in All Vadodra</h4>
+                    <!-- <img src="./graphic-design.avif" alt="Graphic Design"> -->
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+    </div>
+    <div class="about-us">
+        <h2 style="font-size: 1.3333333333rem;
+            color: #24A53E;
+            margin-bottom: 10px;
+            font-weight: 400;" class="center">
+            Best Advertising company
+        </h2>
+        <h1 class="center" style="">
+            Why Choose us?
+        </h1>
+    </div>
+    <section>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <div class="cover item-a">
+                        <h1>High-End <br>Anaylizing</h1>
+                        
+                        <!-- <span class="price">$79</span> -->
+                        <div class="card-back">
+                            <a href="#">Share processes and data secure
+                                lona need to know basis.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <div class="cover item-b">
+                        <h1>Excellence Track <br> Record </h1>
+                        <!-- <span class="price">$35</span> -->
+                        <div class="card-back">
+                            <a href="#">Our team assured your website is always safe and secure.
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <div class="cover item-c">
+                        <h1>Our Dedicated <br> Support
+                        </h1>
+                        <!-- <span class="price">$155</span> -->
+                        <div class="card-back">
+                            <a href="#">We finally found a host that truly understood the unique.
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'flex';
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none';
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            const slider = document.querySelector('.slider');
+            const slides = document.querySelectorAll('.slide');
+            let currentIndex = 0;
+        
+            // Auto slide function
+            function autoSlide() {
+                currentIndex = (currentIndex + 1) % slides.length;
+                updateSliderPosition();
+            }
+        
+            // Update slider position
+            function updateSliderPosition() {
+                slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }
+        
+            // Manual controls
+            document.getElementById('prev').addEventListener('click', function() {
+                currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                updateSliderPosition();
+            });
+        
+            document.getElementById('next').addEventListener('click', function() {
+                currentIndex = (currentIndex + 1) % slides.length;
+                updateSliderPosition();
+            });
+        
+            // Set interval for auto slide
+            setInterval(autoSlide, 3000); // Slide every 3 seconds
+        });
+    </script>
+</body>
+</html>
